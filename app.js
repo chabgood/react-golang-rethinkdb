@@ -71,8 +71,8 @@ class ChannelSection extends React.Component{
   render(){
     return(
       <div>
-        <ChannelList channels={this.state.channels}/>
-        <ChannelForm addChannel={this.addChannel.bind(this)}/>
+        <ChannelList channels={this.state.channels} />
+        <ChannelForm addChannel={this.addChannel.bind(this)} />
       </div>
     )
   }
